@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    border: 0;
+}
+.addImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    justify-content: center;
+    background: #dfdfdf;
+    
+    border: 0;
+    transition: 0.5s ease;
+}
+img:hover{
+    transform: scale(1.2);
+
+}
